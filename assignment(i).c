@@ -68,7 +68,7 @@ int main()
 			pthread_create(&student,NULL,student2,NULL);
 			pthread_join(student,NULL);
 		}
-		else if((rs1==1 && rs2==3 || rs1==3 && rs2==1) && assignment3==0)
+		else if((rs1==1 && rs2==2 || rs1==2 && rs2==1) && assignment3==0)
 		{
 			pthread_create(&student,NULL,student3,NULL);
 			pthread_join(student,NULL);
